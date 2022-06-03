@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="fogata.webp">
+    <title>Horario de clases</title>
+    <link rel="stylesheet" href="fondo.css">
+    <link rel="stylesheet" href="barraNavegacion.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container logo-nav-conteiner">
+            <nav class="navegation">
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="curriculum.php" class="active">Curriculum</a></li>
+                    <li><a href="video.php">Video</a></li>
+                    <li><a href="listadoEstudiantes.php">Listado Estudiantes</a></li>
+                    <li><a href="horario.html">Horario</a></li>
+                    <li><a href="calculadora.html">Calculadora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1 align="center"><br>Horario de clases</br></h1>
+    <table align="center" border="1px">
+        <tr>
+            <th>HORA</th>
+            <th>LUNES</th>
+            <th>MARTES</th>
+            <th>MIERCOLES</th>
+            <th>JUEVES</th>
+            <th>VIERNES</th>
+        </tr>
+        <tr>
+            <td>7:30</td>
+            <td>Simulacion</td>
+            <td>Fundamentos</td>
+            <td>Sistemas</td>
+            <td>Desarrollo</td>
+            <td>Desarrollo</td>
+        </tr>
+        <tr>
+            <td>8:30</td>
+            <td>Simulacion</td>
+            <td>Fundamentos</td>
+            <td>Sistemas</td>
+            <td>Desarrollo</td>
+            <td>Desarrollo</td>
+        </tr>
+        <tr>
+            <td>9:30</td>
+            <td>Analisis</td>
+            <td>Desarrollo</td>
+            <td>Analisis</td>
+            <td>Fundamentos</td>
+            <td>Simulacion</td>
+        </tr>
+        <tr>
+            <td>10:30</td>
+            <td>Analisis</td>
+            <td>Desarrollo</td>
+            <td>Analisis</td>
+            <td>Fundamentos</td>
+            <td>Simulacion</td>
+        </tr>
+        <tr>
+            <td>11:30</td>
+            <td>Sistemas</td>
+            <td>Analisis</td>
+            <td>Desarrollo</td>
+            <td>Simulacion</td>
+            <td>Sistemas</td>
+        </tr>
+        <tr>
+            <td>12:30</td>
+            <td>Sistemas</td>
+            <td>Analisis</td>
+            <td>Desarrollo</td>
+            <td>Simulacion</td>
+            <td>Sistemas</td>
+        </tr>
+
+    </table>
+    <h1>Cuantas etiquetas hay?</h1>
+    <button id="cont" onclick>Mostrar etiquetas</button>
+    <h4 id="aqui"></h4>
+    <h1>Mostrando horario con AJAX</h1>
+    <button id="boton">Cargar horario</button>
+    <table align="center" class="styled-table">
+        <thead>
+            <tr>
+                <th>HORA</th>
+                <th>LUNES</th>
+                <th>MARTES</th>
+                <th>MIERCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+            </tr>
+        </thead>
+        <tbody id="res">
+            <tr class="active-row"></tr>
+        </tbody>
+    </table>
+    <script src="funciones.js"></script>
+</body>
+
+</html>

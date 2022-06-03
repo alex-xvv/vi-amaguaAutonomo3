@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datos>
+    <persona>
+        <foto></foto>
+        <cedula>1719155085</cedula>
+        <foto>yo.jpg</foto>
+        <nombre>Alex</nombre>
+        <apellido>Viñamagua</apellido>
+        <escuela>Miguel Riofrio N1</escuela>
+        <colegio>Jose Antonio Jara</colegio>
+        <lenguajes>JAVA</lenguajes>
+        <independiente>Pagina web estatica</independiente>
+        <salto>Basquetball</salto>
+        <correr>Futboll</correr>
+        <habilidades>dibujo</habilidades>
+        <especialidad>Artes plasticas</especialidad>
+        <celular>0939658919</celular>
+        <correo>alex.vinamagua@unl.edu.ec</correo>
+    </persona>
+</datos>

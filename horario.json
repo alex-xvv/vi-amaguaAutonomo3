@@ -1,0 +1,50 @@
+[
+  {
+    "Hora": "7:30",
+    "clase1": "Simulacion",
+    "clase2": "Fundamentos",
+    "clase3": "Sistemas",
+    "clase4": "Desarrollo",
+    "clase5": "Desarrollo"
+  },
+  {
+    "Hora": "8:30",
+    "clase1": "Simulacion",
+    "clase2": "Fundamentos",
+    "clase3": "Sistemas",
+    "clase4": "Desarrollo",
+    "clase5": "Desarrollo"
+  },
+  {
+    "Hora": "9:30",
+    "clase1": "Analisis",
+    "clase2": "Desarrollo",
+    "clase3": "Analisis",
+    "clase4": "Fundamentos",
+    "clase5": "Simulacion"
+  },
+  {
+    "Hora": "10:30",
+    "clase1": "Analisis",
+    "clase2": "Desarrollo",
+    "clase3": "Analisis",
+    "clase4": "Fundamentos",
+    "clase5": "Simulacion"
+  },
+  {
+    "Hora": "11:30",
+    "clase1": "Sistemas",
+    "clase2": "Analisis",
+    "clase3": "Desarrollo",
+    "clase4": "Simulacion",
+    "clase5": "Sistemas"
+  },
+  {
+    "Hora": "12:30",
+    "clase1": "Sistemas",
+    "clase2": "Analisis",
+    "clase3": "Desarrollo",
+    "clase4": "Simulacion",
+    "clase5": "Sistemas"
+  }
+]
